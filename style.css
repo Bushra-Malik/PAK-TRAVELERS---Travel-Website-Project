@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+
+@media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+  body{
+    font-family:'Poppins'; 
+    font-weight:bolder;
+    /* html, body { */
+      min-width: 360px;
+    /* } */
+  }
+.bgcolor{
+    /* background-color: rgb(9, 251, 106);
+     */
+  background-color:  rgba(180, 223, 197, 0.425);
+
+}
+.bgcolorbooking{
+  background-color:  rgba(180, 223, 197);
+}
+.formbg{
+  background-color:  rgba(180, 223, 197, 0.425);
+  box-shadow: 0 0 10px 0 #000;
+}
+a{
+    text-decoration: none;
+}
+.nav-item  {
+padding: 0px 25px;
+border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+border-radius: 5px;
+margin: 0px 10px;
+}
+.nav-item:hover{
+background-color:  rgba(180, 223, 197, 0.425);
+border-top: 2px solid rgba(255, 255, 255, 0.8);
+
+}
+.nav-item a:hover{
+  color: white;
+}
+.line{
+  border-top: 2px solid  rgba(180, 223, 197, 0.425);
+  border-bottom: 2px solid  rgba(180, 223, 197, 0.425);
+}
+.form-container{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  
+  top: 15%;
+  padding: 55px;
+  margin-left: -5%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #000;
+
+}
+.form-container-signup{
+  position: absolute;
+  background-color: rgba(180, 223, 197, 0.7);
+  top: 15%;
+  padding: 55px;
+  margin-left: -5%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #000;
+
+}
+.bg{
+  background: url('images/loginbg.jpg'), linear-gradient(rgb(161, 221, 161,0.6),rgb(255, 255, 255,0.6));
+    background-size: cover;
+    background-blend-mode:lighten;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:'Montserrat'; 
+    font-weight:bolder;
+}
+.btn:hover{
+  background-color: white;
+  border: 1px solid green;
+  color:green;
+  font-weight: 800;
+}
+button a{
+  color:green;
+}
+.bookingbg{
+  background: url('images/bgnew.jpg'),linear-gradient(rgba(177, 226, 177, 0.6),rgb(255, 255, 255,0.6));
+    background-size: cover;
+    background-blend-mode:lighten;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    /* font-family:'Montserrat'; 
+    font-weight:bolder; */
+}
+.bgsection{
+  background-image: linear-gradient(rgba(180, 223, 197, 0.425),rgb(255, 255, 255,0.6));
+}
